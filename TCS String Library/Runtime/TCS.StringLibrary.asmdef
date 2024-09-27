@@ -1,0 +1,14 @@
+{
+    "name": "TCS.StringLibrary",
+    "rootNamespace": "TCS.StringLibrary",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

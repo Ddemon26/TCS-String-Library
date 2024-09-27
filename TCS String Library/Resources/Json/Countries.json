@@ -1,0 +1,33 @@
+{
+  "Strings": [
+    "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria",
+    "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan",
+    "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cabo Verde", "Cambodia",
+    "Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo", "Costa Rica",
+    "Croatia", "Cuba", "Cyprus", "Czech Republic", "Democratic Republic of the Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "East Timor",
+    "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland",
+    "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea",
+    "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq",
+    "Ireland", "Israel", "Italy", "Ivory Coast", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati",
+    "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania",
+    "Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius",
+    "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Namibia",
+    "Nauru", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "North Macedonia", "Norway",
+    "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal",
+    "Qatar", "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe",
+    "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia",
+    "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria",
+    "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan",
+    "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City",
+    "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe","Abkhazia", "Aland Islands", "American Samoa", "Anguilla", "Aruba", "Ascension Island", "Bermuda", "Bonaire", "Bouvet Island", "British Indian Ocean Territory",
+    "British Virgin Islands", "Cayman Islands", "Christmas Island", "Cocos (Keeling) Islands", "Cook Islands", "Curacao", "Falkland Islands", "Faroe Islands", "French Guiana", "French Polynesia",
+    "French Southern and Antarctic Lands", "Gibraltar", "Greenland", "Guadeloupe", "Guam", "Guernsey", "Heard Island and McDonald Islands", "Hong Kong", "Isle of Man", "Jersey",
+    "Kosovo", "Macau", "Madeira", "Martinique", "Mayotte", "Montserrat", "New Caledonia", "Niue", "Norfolk Island", "Northern Mariana Islands",
+    "Pitcairn Islands", "Puerto Rico", "Reunion", "Saint Barthelemy", "Saint Helena", "Saint Martin", "Saint Pierre and Miquelon", "Svalbard and Jan Mayen", "Tokelau", "Tristan da Cunha",
+    "Turks and Caicos Islands", "US Virgin Islands", "Wallis and Futuna", "Western Sahara", "Akrotiri and Dhekelia", "Ashmore and Cartier Islands", "Clipperton Island", "Coral Sea Islands", "Antarctica", "Sark",
+    "Transnistria", "Nagorno-Karabakh", "Northern Cyprus", "Western New Guinea", "Greenland", "Azores", "Guadeloupe", "Guyane", "Tokelau", "Niue",
+    "Saint Pierre and Miquelon", "Saba", "Sint Eustatius", "Montserrat", "Anguilla", "Barbuda", "Isle of Man", "Saint Helena", "Ascension Island", "Tristan da Cunha",
+    "Bailiwick of Guernsey", "Bailiwick of Jersey", "Kuwait City", "Laos", "Tibet", "Kaliningrad", "Chechnya", "Crimea", "Isle of Man", "Tenerife",
+    "Lampedusa", "Ceuta", "Melilla", "Catalonia", "Basque Country", "Galicia", "Flemish Region", "Walloon Region", "Brussels", "Brittany"
+  ]
+}

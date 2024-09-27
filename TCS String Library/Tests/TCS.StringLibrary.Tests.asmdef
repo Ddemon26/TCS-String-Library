@@ -1,0 +1,16 @@
+{
+    "name": "TCS.StringLibrary.Tests",
+    "rootNamespace": "TCS.StringLibrary.Tests",
+    "references": [
+        "GUID:76897406b6fc1e841ba71d6b8ab44368"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
