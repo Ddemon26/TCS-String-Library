@@ -1,4 +1,4 @@
-# 🎨 Tent City Studio String Library
+# 🎨 TCS String Library
 
 ![Unity](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity)
 ![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)
@@ -29,13 +29,13 @@
 ![Demo GIF](https://media.giphy.com/media/l4Ep6KDbnTvdhGMP6/giphy.gif)
 
 ## 📜 Table of Contents
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+- Features
+- Getting Started
+- Installation
+- Usage
+- Customization
+- Contributing
+- License
 
 ## ✨ Features
 
