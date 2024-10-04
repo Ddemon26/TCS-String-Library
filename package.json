@@ -1,14 +1,9 @@
 {
   "name": "com.tcs.stringlibrary",
-  "displayName": "TCS-String-Library",
+  "displayName": "TCS-StringLibrary",
   "description": "A simple string library for Unity",
   "version": "1.0.1",
-  "keywords": [
-    "string",
-    "library",
-    "unity",
-    "simple"
-  ],
+  "keywords": ["string", "library", "unity", "simple"],
   "category": "Tent City Studio",
   "dependencies": {},
   "author": {
