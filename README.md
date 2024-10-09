@@ -1,88 +1,83 @@
-# 🎨 TCS String Library
+# TCS String Library
 
-![Unity](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity)
-![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)
-[![Odin Inspector](https://img.shields.io/badge/Odin_Inspector-Required-blue?style=for-the-badge)](https://odininspector.com/)
+![License](https://img.shields.io/github/license/Ddemon26/TCS-String-Library?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/Ddemon26/TCS-String-Library?style=flat-square) ![GitHub stars](https://img.shields.io/github/stars/Ddemon26/TCS-String-Library?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/Ddemon26/TCS-String-Library?style=flat-square) ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Ddemon26/TCS-String-Library/ci.yml?branch=main&style=flat-square)
 
-***
-![Banner Image](https://via.placeholder.com/1000x300.png?text=assets+TCS+String+Library+for+Unity)
-***
+## Overview
+The **TCS String Library** is a comprehensive collection of utilities and data structures designed to facilitate sophisticated handling and manipulation of strings within Unity environments. This library encompasses a wide array of unique string datasets, including but not limited to names, surnames, countries, animals, and occupations. As such, it is an invaluable tool for dialogue systems, procedural content generation, and any scenario necessitating dynamic textual manipulation.
 
-![GitHub Forks](https://img.shields.io/github/forks/Ddemon26/TCS-String-Library)
-![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-String-Library)
+Crafted with Unity developers in mind, this library offers precompiled string resources and extensive extensions that simplify typical string operations. The package is developed with an emphasis on modularity, reusability, and efficiency, providing an elegant approach to handle the common yet complex aspects of text processing in game development.
 
-![GitHub Stars](https://img.shields.io/github/stars/Ddemon26/TCS-String-Library)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Ddemon26/TCS-String-Library)
+## Features
+- **Comprehensive String Collections**: A repository of predefined, unique string collections, such as personal names, surnames, geographical locations, animal species, and occupational titles.
+- **Advanced String Extensions**: Utility methods provided as extensions to facilitate sophisticated string manipulation and formatting.
+- **Seamless Unity Integration**: Structured for compatibility with Unity, utilizing Unity's assembly definition (`.asmdef`) to ensure modular integration, minimizing project coupling and build complexity.
+- **Extensive Testing Suite**: A robust suite of unit tests to validate the functionality and reliability of the library, thus ensuring consistent performance in a production environment.
 
-[![Join our Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/knwtcq3N2a)
-![Discord](https://img.shields.io/discord/1047781241010794506)
+## Installation
+To incorporate the TCS String Library into your Unity project:
 
-![GitHub Issues](https://img.shields.io/github/issues/Ddemon26/TCS-String-Library)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ddemon26/TCS-String-Library)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-String-Library)
+1. Clone the repository or download the provided ZIP archive.
+2. Extract the contents to the `Assets` directory of your Unity project.
+3. Ensure proper placement of the `TCS.StringLibrary.asmdef` to facilitate seamless integration into Unity's assembly definition system.
 
-![GitHub License](https://img.shields.io/github/license/Ddemon26/TCS-String-Library)
-![Static Badge](https://img.shields.io/badge/Noobs-0-blue)
+Alternatively, the repository can be added as a Git submodule or integrated via Unity's package manager for greater modularity.
 
-✨ **TCS String Library** is a Unity tool designed to provide a comprehensive set of string utilities, including random name generation, dialogue generation, and rich text formatting. It simplifies the process of managing and generating strings in Unity projects.
+## Usage
+The primary interface of the library is the `StringLibrary` class, which provides static methods to access diverse string categories and operations. Consider the following usage scenario:
 
-![Demo GIF](https://media.giphy.com/media/l4Ep6KDbnTvdhGMP6/giphy.gif)
+```csharp
+using TC.StringLibrary;
+using UnityEngine;
 
-## 📜 Table of Contents
-- Features
-- Getting Started
-- Installation
-- Usage
-- Customization
-- Contributing
-- License
+public class ExampleUsage : MonoBehaviour {
+    void Start() {
+        // Accessing unique names from the library
+        string randomName = StringLibrary.GetRandomName();
+        Debug.Log("Random Name: " + randomName);
+    }
+}
+```
 
-## ✨ Features
+In the above example, `StringLibrary.GetRandomName()` retrieves a randomly selected name from the precompiled collection of unique names, demonstrating how easily developers can leverage the library's resources.
 
-- **Random Name Generation**: Generate random names, surnames, countries, animals, and occupations.
-- **Dialogue Generation**: Generate random dialogues, apologies, complaints, excuses, farewells, flirty lines, greetings, jokes, questions, small talk, threats, and warnings.
-- **Rich Text Formatting**: Apply rich text formatting like color, size, bold, italic, underline, strikethrough, font, alignment, gradient, rotation, and spacing.
+### Core Components
+- **StringLibrary.cs**: The principal static class that facilitates access to various unique string datasets, including names, surnames, countries, and more.
+- **StringLibraryExtensions.cs**: Contains extension methods that augment Unity's string handling capabilities, offering enhanced functionality for querying and manipulating strings.
 
-## 🚀 Getting Started
+## Testing
+The repository includes a comprehensive set of unit tests that verify the correctness and robustness of the library's functionality. These tests are housed in the `Tests` directory and can be executed using Unity's native Test Runner tool.
 
-Follow these steps to start using the **TCS String Library**:
+To execute the tests:
+1. Open Unity and navigate to the `Test Runner` window.
+2. Select and run the tests to verify the library's correct operation.
 
-1. **Install Dependencies**: Ensure that [Odin Inspector](https://odininspector.com/) is installed, as it is required for custom editor features.
+## Project Structure
+- **Runtime/Core**: Houses the core utilities that form the backbone of the string library, including `StringLibrary.cs` and the associated extension methods.
+- **Runtime/People**: Contains scripts related to the generation and manipulation of personal names and related data.
+- **Runtime**: Encompasses the primary components that are directly utilized within Unity scenes.
+- **Tests**: Includes unit tests that ensure the reliability and consistency of the library's functionalities.
+- **Resources**: Contains supplementary data or assets that are required by the library during runtime execution.
 
-2. **Open the String Library**: In Unity, navigate to `Tools > String Library` to open the tool's editor window.
-
-3. **Initialize Systems**: Set up the string library in your game scene.
-
-4. **Use String Features**: Utilize the provided scripts to generate random strings and apply rich text formatting.
-
-## 🔧 Installation
-
-1. Clone or download this repository.
-2. Add the folder to the `Assets` directory in your Unity project.
-3. Install [Odin Inspector](https://odininspector.com/).
-4. Open the Unity Editor and access the String Library through the `Tools` menu.
-
-## 🛠️ Usage
-
-1. **Random Name Generation**: Use the `StringLibrary` class to generate random names, surnames, countries, animals, and occupations.
-2. **Dialogue Generation**: Use the `StringLibrary` class to generate random dialogues, apologies, complaints, excuses, farewells, flirty lines, greetings, jokes, questions, small talk, threats, and warnings.
-3. **Rich Text Formatting**: Use the `StringLibraryExtensions` class to apply rich text formatting like color, size, bold, italic, underline, strikethrough, font, alignment, gradient, rotation, and spacing.
-
-## ⚙️ Customization
-
-- **Custom JSON Files**: Customize the JSON files used for random string generation by modifying the files in the `Resources/Json` directory.
-- **Rich Text Customization**: Customize the rich text formatting methods in the `StringLibraryExtensions` class.
-
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
+## Contributing
+Contributions to the TCS String Library are highly encouraged. To contribute:
 1. Fork the repository.
-2. Create a new feature branch (`git checkout -b feature/NewFeature`).
-3. Make your changes and commit (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/NewFeature`).
-5. Open a pull request.
+2. Create a feature branch (`feature/your-feature-name`).
+3. Commit your changes with clear and concise messages.
+4. Submit a pull request for review.
 
-## 📄 License
+Please ensure that any new functionality is covered by appropriate unit tests to maintain code integrity.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## License
+This project is licensed under the MIT License. Refer to the [LICENSE](LICENSE) file for complete details.
+
+## Acknowledgements
+- **JetBrains Annotations**: This library leverages JetBrains Annotations to improve code quality, enhance maintainability, and ensure precise, readable implementation.
+- **Unity**: Developed with native Unity compatibility, enabling effortless integration into existing Unity projects and enhancing development workflows.
+
+## Contact
+For inquiries, feature requests, or to report issues, please open an issue in the GitHub repository.
+
+---
+
+Empower your Unity projects with sophisticated string manipulation capabilities using the TCS String Library. The community welcomes exploration, use, and contributions to further enhance this tool's utility.
+
