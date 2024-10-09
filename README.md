@@ -1,6 +1,6 @@
 # TCS String Library
 
-![License](https://img.shields.io/github/license/Ddemon26/TCS-String-Library?style=flat-square) ![Build Status](https://img.shields.io/github/actions/workflow/status/Ddemon26/TCS-String-Library/build.yml?branch=main) ![Version](https://img.shields.io/github/v/release/Ddemon26/TCS-String-Library?style=flat-square)
+![License](https://img.shields.io/github/license/Ddemon26/TCS-String-Library?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/Ddemon26/TCS-String-Library?style=flat-square) ![GitHub stars](https://img.shields.io/github/stars/Ddemon26/TCS-String-Library?style=flat-square) ![GitHub forks](https://img.shields.io/github/forks/Ddemon26/TCS-String-Library?style=flat-square) ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Ddemon26/TCS-String-Library/ci.yml?branch=main&style=flat-square)
 
 ## Overview
 The **TCS String Library** is a comprehensive collection of utilities and data structures designed to facilitate sophisticated handling and manipulation of strings within Unity environments. This library encompasses a wide array of unique string datasets, including but not limited to names, surnames, countries, animals, and occupations. As such, it is an invaluable tool for dialogue systems, procedural content generation, and any scenario necessitating dynamic textual manipulation.
@@ -80,3 +80,4 @@ For inquiries, feature requests, or to report issues, please open an issue in th
 ---
 
 Empower your Unity projects with sophisticated string manipulation capabilities using the TCS String Library. The community welcomes exploration, use, and contributions to further enhance this tool's utility.
+
