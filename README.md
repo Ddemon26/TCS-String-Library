@@ -1,88 +1,76 @@
-# 🎨 TCS String Library
-
-![Unity](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity)
-![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)
-[![Odin Inspector](https://img.shields.io/badge/Odin_Inspector-Required-blue?style=for-the-badge)](https://odininspector.com/)
-
-***
-![Banner Image](https://via.placeholder.com/1000x300.png?text=assets+TCS+String+Library+for+Unity)
-***
-
-![GitHub Forks](https://img.shields.io/github/forks/Ddemon26/TCS-String-Library)
-![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-String-Library)
-
-![GitHub Stars](https://img.shields.io/github/stars/Ddemon26/TCS-String-Library)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Ddemon26/TCS-String-Library)
+# TCS String Library
 
 [![Join our Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/knwtcq3N2a)
 ![Discord](https://img.shields.io/discord/1047781241010794506)
 
-![GitHub Issues](https://img.shields.io/github/issues/Ddemon26/TCS-String-Library)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ddemon26/TCS-String-Library)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-String-Library)
+![GitHub Forks](https://img.shields.io/github/forks/Ddemon26/TCS-String-Library)
+![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-String-Library)
+![GitHub Stars](https://img.shields.io/github/stars/Ddemon26/TCS-String-Library)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Ddemon26/TCS-String-Library)
 
-![GitHub License](https://img.shields.io/github/license/Ddemon26/TCS-String-Library)
-![Static Badge](https://img.shields.io/badge/Noobs-0-blue)
+## Overview
 
-✨ **TCS String Library** is a Unity tool designed to provide a comprehensive set of string utilities, including random name generation, dialogue generation, and rich text formatting. It simplifies the process of managing and generating strings in Unity projects.
+The **TCS String Library** is a Unity-focused library designed for generating various random strings used in gameplay scenarios. This library provides a simple interface for developers to generate random names, surnames, occupations, countries, animals, and different types of dialogues. The goal is to aid developers by providing a quick way to access dynamic text elements during runtime, enhancing player immersion and interaction with procedurally generated content.
 
-![Demo GIF](https://media.giphy.com/media/l4Ep6KDbnTvdhGMP6/giphy.gif)
+### Key Features
 
-## 📜 Table of Contents
-- Features
-- Getting Started
-- Installation
-- Usage
-- Customization
-- Contributing
-- License
+- **Random String Generation**: Generate random names, surnames, occupations, and countries.
+- **Dialogue Generation**: Generate various types of dialogues, including jokes, greetings, threats, and more.
+- **Extension Methods**: Access the library's functionality through convenient string extension methods.
 
-## ✨ Features
+## Installation
 
-- **Random Name Generation**: Generate random names, surnames, countries, animals, and occupations.
-- **Dialogue Generation**: Generate random dialogues, apologies, complaints, excuses, farewells, flirty lines, greetings, jokes, questions, small talk, threats, and warnings.
-- **Rich Text Formatting**: Apply rich text formatting like color, size, bold, italic, underline, strikethrough, font, alignment, gradient, rotation, and spacing.
+1. Clone the repository into your Unity project's `Assets` folder:
+   ```bash
+   git clone https://github.com/Ddemon26/TCS-String-Library.git
+   ```
+2. Open your Unity project, and the library will be automatically detected as part of the solution.
 
-## 🚀 Getting Started
+## Usage
 
-Follow these steps to start using the **TCS String Library**:
+### Example 1: Generating Random Names
 
-1. **Install Dependencies**: Ensure that [Odin Inspector](https://odininspector.com/) is installed, as it is required for custom editor features.
+```csharp
+using TC.StringLibrary;
 
-2. **Open the String Library**: In Unity, navigate to `Tools > String Library` to open the tool's editor window.
+public class ExampleScript : MonoBehaviour {
+    void Start() {
+        string randomName = "".GetRandomName();
+        Debug.Log("Random Name: " + randomName);
+    }
+}
+```
 
-3. **Initialize Systems**: Set up the string library in your game scene.
+### Example 2: Generating Random Dialogue
 
-4. **Use String Features**: Utilize the provided scripts to generate random strings and apply rich text formatting.
+```csharp
+using TC.StringLibrary;
 
-## 🔧 Installation
+public class DialogueScript : MonoBehaviour {
+    void Start() {
+        string randomDialogue = "".GetRandomDialogue();
+        Debug.Log("Random Dialogue: " + randomDialogue);
+    }
+}
+```
 
-1. Clone or download this repository.
-2. Add the folder to the `Assets` directory in your Unity project.
-3. Install [Odin Inspector](https://odininspector.com/).
-4. Open the Unity Editor and access the String Library through the `Tools` menu.
+### Example 3: Getting a Random Country
 
-## 🛠️ Usage
+```csharp
+using TC.StringLibrary;
 
-1. **Random Name Generation**: Use the `StringLibrary` class to generate random names, surnames, countries, animals, and occupations.
-2. **Dialogue Generation**: Use the `StringLibrary` class to generate random dialogues, apologies, complaints, excuses, farewells, flirty lines, greetings, jokes, questions, small talk, threats, and warnings.
-3. **Rich Text Formatting**: Use the `StringLibraryExtensions` class to apply rich text formatting like color, size, bold, italic, underline, strikethrough, font, alignment, gradient, rotation, and spacing.
+public class CountryScript : MonoBehaviour {
+    void Start() {
+        string randomCountry = "".GetRandomCountry();
+        Debug.Log("Random Country: " + randomCountry);
+    }
+}
+```
 
-## ⚙️ Customization
+## Contributing
 
-- **Custom JSON Files**: Customize the JSON files used for random string generation by modifying the files in the `Resources/Json` directory.
-- **Rich Text Customization**: Customize the rich text formatting methods in the `StringLibraryExtensions` class.
+We welcome contributions! Feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.
 
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new feature branch (`git checkout -b feature/NewFeature`).
-3. Make your changes and commit (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/NewFeature`).
-5. Open a pull request.
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
