@@ -14,6 +14,6 @@ namespace TC.StringLibrary.People {
         Rogue,
         Elf,
         Dwarf,
-        Orc
+        Orc,
     }
 }   

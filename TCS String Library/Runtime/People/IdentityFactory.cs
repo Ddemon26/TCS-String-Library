@@ -32,7 +32,7 @@ namespace TC.StringLibrary.People {
                     DateOfBirthGenerator.GenerateRandomDateOfBirth(1980, 1990),
                     Gender.Unknown
                 ),
-                _ => CreateDefaultIdentity()
+                _ => CreateDefaultIdentity(),
             };
         }
 
