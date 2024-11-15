@@ -105,7 +105,7 @@ namespace TC.StringLibrary {
                      $"'{warning}', the stranger said, before disappearing into the night. {protagonist} couldn't shake the feeling that this was no ordinary day.\n\n",
                 4 => $"On a calm afternoon, {protagonist} {surname} was enjoying a walk in the park with their {animalCompanion} when they stumbled upon an odd-looking device. " +
                      $"It beeped and displayed a cryptic message: '{warning}'. Confused, they decided to investigate further.\n\n",
-                _ => string.Empty
+                _ => string.Empty,
             };
         }
 
